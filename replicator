@@ -15,6 +15,7 @@
 
 function require(lib)
   if redstone then
+    print(lib .. '.lua')
     shell.run(lib .. '.lua')
   end
 end
