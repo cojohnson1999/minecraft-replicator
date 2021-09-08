@@ -14,7 +14,6 @@
 
 
 if redstone then
-  print(os.execute('cd'))
   function require(lib) shell.run(lib '.lua') end
 end
 
