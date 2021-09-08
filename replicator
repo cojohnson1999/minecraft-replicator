@@ -14,7 +14,7 @@
 
 
 function require(lib)
-  shell.run(lib '.lua')
+  shell.run lib '.lua'
 end
 
 require 'lib/class'
