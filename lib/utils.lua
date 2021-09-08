@@ -1,4 +1,4 @@
-require('class')
+os.loadAPI('class')
 function enum(names)
   local rv = {}
   for i, name in ipairs(names) do
