@@ -14,7 +14,7 @@
 
 
 if redstone then
-  current_dir=io.popen"cd":read'*l'
+  print(os.execute('cd'))
   function require(lib) shell.run(current_dir / lib '.lua') end
 end
 
