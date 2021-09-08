@@ -47,7 +47,9 @@ local startingState = {
   mining_fails = 0,
 }
 
-local cardinal = enum {'north', 'east', 'south', 'west'}
+local Enum = require("enum") -- Require the library
+
+local cardinal = Enum {'north', 'east', 'south', 'west'}
 
 local startingPosition = {
   x = 0, y = 0, z = 0,
