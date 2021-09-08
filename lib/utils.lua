@@ -1,4 +1,4 @@
-os.loadAPI('lib/class')
+os.loadAPI('class.lua')
 function enum(names)
   local rv = {}
   for i, name in ipairs(names) do
