@@ -17,10 +17,10 @@ if redstone then
   function require(lib) shell.run(lib .. '.lua') end
 end
 
-require 'lib/class'
-require 'lib/serpent'
-require 'lib/utils'
-require 'lib/items'
+os.loadAPI('lib/class')
+os.loadAPI('lib/serpent')
+os.loadAPI('lib/utils')
+os.loadAPI('lib/items')
 
 local defaultConfig = {
   state_file = 'state/state.lua',
