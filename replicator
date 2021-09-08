@@ -12,9 +12,8 @@
   /______________________________________________//
   `-------------------------------------------- ]]
 
-
-function require(lib)
-  shell.run lib '.lua'
+if redstone then
+  function require(lib) shell.run(lib .. '.lua') end
 end
 
 require 'lib/class'
